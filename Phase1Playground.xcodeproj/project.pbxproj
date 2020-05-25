@@ -13,6 +13,9 @@
 		560776922434D9B50086C8D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 560776902434D9B50086C8D0 /* Main.storyboard */; };
 		560776942434D9C00086C8D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 560776932434D9C00086C8D0 /* Assets.xcassets */; };
 		560776972434D9C00086C8D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 560776952434D9C00086C8D0 /* LaunchScreen.storyboard */; };
+		56DAC551247C2F7800B7BF4A /* SyncViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DAC550247C2F7800B7BF4A /* SyncViewController.swift */; };
+		56DAC553247C3A7D00B7BF4A /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DAC552247C3A7D00B7BF4A /* DesignableButton.swift */; };
+		56DAC556247C42D400B7BF4A /* VoiceOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DAC555247C42D400B7BF4A /* VoiceOverViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		560776932434D9C00086C8D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		560776962434D9C00086C8D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		560776982434D9C00086C8D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56DAC550247C2F7800B7BF4A /* SyncViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncViewController.swift; sourceTree = "<group>"; };
+		56DAC552247C3A7D00B7BF4A /* DesignableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		56DAC555247C42D400B7BF4A /* VoiceOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceOverViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +66,22 @@
 				5607768C2434D9B50086C8D0 /* SceneDelegate.swift */,
 				5607768E2434D9B50086C8D0 /* ViewController.swift */,
 				560776902434D9B50086C8D0 /* Main.storyboard */,
+				56DAC555247C42D400B7BF4A /* VoiceOverViewController.swift */,
+				56DAC554247C3AD000B7BF4A /* IBDesignables */,
+				56DAC550247C2F7800B7BF4A /* SyncViewController.swift */,
 				560776932434D9C00086C8D0 /* Assets.xcassets */,
 				560776952434D9C00086C8D0 /* LaunchScreen.storyboard */,
 				560776982434D9C00086C8D0 /* Info.plist */,
 			);
 			path = Phase1Playground;
+			sourceTree = "<group>";
+		};
+		56DAC554247C3AD000B7BF4A /* IBDesignables */ = {
+			isa = PBXGroup;
+			children = (
+				56DAC552247C3A7D00B7BF4A /* DesignableButton.swift */,
+			);
+			path = IBDesignables;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +158,9 @@
 				5607768F2434D9B50086C8D0 /* ViewController.swift in Sources */,
 				5607768B2434D9B50086C8D0 /* AppDelegate.swift in Sources */,
 				5607768D2434D9B50086C8D0 /* SceneDelegate.swift in Sources */,
+				56DAC553247C3A7D00B7BF4A /* DesignableButton.swift in Sources */,
+				56DAC551247C2F7800B7BF4A /* SyncViewController.swift in Sources */,
+				56DAC556247C42D400B7BF4A /* VoiceOverViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
